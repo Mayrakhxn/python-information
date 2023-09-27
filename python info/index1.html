@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+            background-image: url(poly\ \(1\).gif);
+            background-size:cover;
+            background-position: center;
+
+        }
+        h1 {
+            color: #d30d38;
+            font-size: 60px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        #details {
+            margin-top: 20px;
+            color: hsl(330, 90%, 27%);
+        }
+        #goToSecondPage {
+            padding: 10px 20px;
+            background-color: hsl(0, 93%, 34%);
+            color: hwb(40 1% 95%);
+            border: none;
+            cursor: pointer;
+        }
+        #goToSecondPage:hover {
+            background-color: hsl(127, 100%, 31%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 font-size="2000px">Welcome to My Website</h1>
+    </header>
+    <section>
+        <h2>This is the homepage of my website. Thank you for visiting!</h2>
+        <div id="details">
+            <h2>Website Name: My  Website  is Python Information</h2>
+            <h2>Details: In this it was explained about the resources of python.</h2>
+        </div>
+    </section>
+    <section>
+        <a href="index (3).html"><button id="goToSecondPage">Go to Second Page</button></a>
+       
+        <script>
+        
+            document.getElementById("goToSecondPage").addEventListener("click", function() {
+                window.location.href = "second_page.html";
+            });
+        </script>
+    </section>
+    <footer>
+        <h2>S.V.POLYTECHNIC COLLEGE BHOPAL</h2>
+        <h3>NAME    =   MARIYAM KHAN</h3>
+        <h3>BRANCH  =   INFORMATION TECHNOLOGY</h3>
+        <h3>SEM/YEAR  = THIRD/SECOND</h3>
+        <h3>SUB    =    WEBSITE</h3>
+        <h1>Thank you for visiting!</h1>
+    </footer>
+    <script>
+        
+        document.getElementById("goToSecondPage").addEventListener("click", function() {
+            window.location.href = "second_page.html";
+        });
+    </script>
+</body>
+</html>
+
